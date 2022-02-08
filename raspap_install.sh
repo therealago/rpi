@@ -82,6 +82,3 @@ echo .... Routing and IP masquerading - Deactivated
 echo .... Enable hostapd
 sudo systemctl unmask hostapd.service
 sudo systemctl enable hostapd.service
-
-echo .... Reboot - default SSID is raspi-webgui
-sudo systemctl reboot
