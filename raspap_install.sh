@@ -4,7 +4,7 @@ echo .... RaspAP Install
 echo .. Enable wireless operation
 sudo rfkill unblock wlan
 echo .. Install packages
-sudo apt-get install lighttpd git hostapd dnsmasq iptables-persistent vnstat qrencode php7.3-cgi
+sudo apt-get install lighttpd hostapd dnsmasq iptables-persistent vnstat qrencode php7.3-cgi
 echo .. Enable PHP
 sudo lighttpd-enable-mod fastcgi-php    
 sudo service lighttpd force-reload
