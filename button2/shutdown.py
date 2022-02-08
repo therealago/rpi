@@ -2,6 +2,7 @@
 
 # Simple script for shutting down the Raspberry Pi at the press of a button.
 # by Inderpreet Singh
+# https://www2.quartoknows.com/page/raspberry-pi-shutdown-button
 
 import RPi.GPIO as GPIO
 import time
