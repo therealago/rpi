@@ -1,4 +1,5 @@
 #! /bin/sh
+# https://howchoo.com/g/mwnlytk3zmm/how-to-add-a-power-button-to-your-raspberry-pi#make-our-final-circuit
 
 set -e
 
