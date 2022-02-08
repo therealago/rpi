@@ -17,4 +17,5 @@ if [ "$_IP" ]; then
   printf "My IP address is %s\n" "$_IP"
 fi
 
+sudo python3 /home/shutdown.py &
 exit 0
