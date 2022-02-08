@@ -70,7 +70,7 @@ sudo sed -i -E 's/^session\.cookie_httponly\s*=\s*(0|([O|o]ff)|([F|f]alse)|([N|n
 sudo sed -i -E 's/^;?opcache\.enable\s*=\s*(0|([O|o]ff)|([F|f]alse)|([N|n]o))\s*$/opcache.enable = 1/' /etc/php/7.3/cgi/php.ini
 sudo phpenmod opcache
 
-# echo .... Routing and IP masquerading
+echo .... Routing and IP masquerading - Deactivated
 # echo "net.ipv4.ip_forward=1" | sudo tee /etc/sysctl.d/90_raspap.conf > /dev/null
 # sudo sysctl -p /etc/sysctl.d/90_raspap.conf
 # sudo /etc/init.d/procps restart
